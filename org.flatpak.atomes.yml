@@ -4,10 +4,11 @@ runtime-version: '21.08'
 sdk: org.freedesktop.Sdk
 command: atomes
 modules:
+  - shared-modules/glu/glu-9.json
   - name: atomes
     buildsystem: simple
     build-commands:
-      - ./configure FFLAGS="-O3" CFLAGS="-O3"
+      - ./configure FFLAGS="-O3" CFLAGS="-O3" --prefix=/app
       - make
       - make install
     sources:
