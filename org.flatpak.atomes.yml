@@ -13,5 +13,5 @@ modules:
       - make install
     sources:
       - type: archive
-        url: https://raw.githubusercontent.com/Slookeur/Atomes-flatpak-build/main/atomes-1.1.3.tar.gz
-        sha256: "752992319cd86f8f7427ea0fc440dc3a469aed29157e24928fb6213d39390186"
+        url: https://raw.githubusercontent.com/Slookeur/Atomes-flatpak-build/main/atomes-1.1.4.tar.gz
+        sha256: "548e8a8057ed96f1eccbe147c6adae062f8faa816313c6d3b659bcf13988f5e7"
