@@ -1,5 +1,5 @@
 app-id: org.flatpak.atomes
-runtime: org.freedesktop.Platform.GL.default
+runtime: org.freedesktop.Platform
 runtime-version: '21.08'
 sdk: org.freedesktop.Sdk
 command: atomes
@@ -13,5 +13,5 @@ modules:
       - make install
     sources:
       - type: archive
-        url: https://github.com/Slookeur/Atomes-GNU/archive/refs/tags/v1.1.7.tar.gz
-        sha256: "ed734174f7c7783abfc0831fbf3437514a0b00a39bc5b8bc37b5ba04658f8c2e"
+        url: https://github.com/Slookeur/Atomes-GNU/archive/refs/tags/v1.1.8.tar.gz
+        sha256: "cefda7b072457d29b4f429fb2724269a02b94d5617e07537b17ca25bf06e0d5b"
