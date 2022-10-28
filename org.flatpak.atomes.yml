@@ -13,5 +13,5 @@ modules:
       - make install
     sources:
       - type: archive
-        url: https://github.com/Slookeur/Atomes-GNU/archive/refs/tags/v1.1.8.tar.gz
-        sha256: "2b7b0c96a9203233d4c4b0558d4d2308a2dd91852687b896f3672f0fcb0b4a1d"
+        url: https://github.com/Slookeur/Atomes-GNU/archive/refs/tags/v1.1.9.tar.gz
+        sha256: "55f429b50924510f34094b75d8709903e2d991084def1d189dfc49ac3787b91d"
