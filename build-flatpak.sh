@@ -8,4 +8,4 @@ git submodule add https://github.com/flathub/shared-modules.git
 
 flatpak-builder atomes org.flatpak.atomes.yml --force-clean
 #flatpak-builder --user --install --force-clean atomes org.flatpak.atomes.yml
-#flatpak run org.flatpak.atomes
+#flatpak run --socket=session-bus --nosocket=fallback-x11 --socket=x11 org.flatpak.atomes
