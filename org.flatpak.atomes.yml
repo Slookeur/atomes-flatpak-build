@@ -1,16 +1,13 @@
 app-id: org.flatpak.atomes
 runtime: org.freedesktop.Platform
-runtime-version: '21.08'
+runtime-version: '22.08'
 sdk: org.freedesktop.Sdk
 command: atomes
 modules:
   - shared-modules/glu/glu-9.json
   - name: atomes
-    buildsystem: simple
-    build-commands:
-      - ./configure FFLAGS="-O3" CFLAGS="-O3" --prefix=/app --enable-flatpak
-      - make
-      - make install
+    buildsystem: autotools
+    no-autogen: true
     sources:
       - type: archive
         url: https://github.com/Slookeur/Atomes-GNU/archive/refs/tags/v1.1.9.tar.gz
