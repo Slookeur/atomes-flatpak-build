@@ -42,10 +42,43 @@ Features
   <a href="https://www.ipcms.fr/"><img width="100" src="https://www.ipcms.fr/wp-content/uploads/2020/09/cropped-dessin_logo_IPCMS_couleur_vectoriel_r%C3%A9%C3%A9quilibr%C3%A9-2.png" alt="IPCMS logo" align="center"></a>
 </p>
 
-## FLATPAK building
+## FLATPAK
 
 This repository contains the latest version of the .yml file to build the Flatpak, source tarball for the Atomes program ...
-... and the script to build it !
+... and the script to build / run it !
+
+## Building the FLATPAK
+
+- Install and the use the shared modules repository to use glu:
+
+  - If required initialize a git repository
+```
+    git init
+```
+  - Install the shared modules repository
+```
+    git submodule add https://github.com/flathub/shared-modules.git
+``` 
+
+- Build the FLATPAK
+
+```
+flatpak-builder atomes org.flatpak.atomes.yml --force-clean
+```
+
+## Running the FLATPAK
+
+For the time being atomes flatpak is not in the official repositories, therefore you have to install it manually: 
+
+```
+flatpak-builder --user --install --force-clean atomes org.flatpak.atomes.yml
+```
+
+To run it:
+
+```
+flatpak run --socket=session-bus --nosocket=fallback-x11 --socket=x11 org.flatpak.atomes
+```
 
 ## Documentation
 
