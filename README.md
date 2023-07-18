@@ -53,11 +53,12 @@ This repository contains the latest version of the .yml file to build the Flatpa
 
   - If required initialize a git repository
 ```
-    git init
+git init
 ```
-  - Install the shared modules repository
+
+  - Install the shared modules repository:
 ```
-    git submodule add https://github.com/flathub/shared-modules.git
+git submodule add https://github.com/flathub/shared-modules.git
 ``` 
 
 - Build the FLATPAK
