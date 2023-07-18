@@ -49,14 +49,14 @@ This repository contains the latest version of the .yml file to build the Flatpa
 
 ## Building the FLATPAK
 
-- Install and the use the shared modules repository to use glu:
+- If required initialize a git repository:
 
-  - If required initialize a git repository
 ```
 git init
 ```
 
-   - Install the shared modules repository:
+- Install the shared modules repository (required to use glu):
+
 ```
 git submodule add https://github.com/flathub/shared-modules.git
 ``` 
