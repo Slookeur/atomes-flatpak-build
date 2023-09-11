@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# Pre-requisites
+# sudo dnf install flatpak-builder
+# flatpak install org.freedesktop.Sdk/x86_64/22.08
+# flatpak install org.freedesktop.Platform/x86_64/22.08
+
 if [ ! -d .git ]; then
   git init
 fi
