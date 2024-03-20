@@ -11,4 +11,4 @@ modules:
     sources:
       - type: archive
         url: https://github.com/Slookeur/Atomes-GNU/archive/refs/tags/v1.1.14.tar.gz
-        sha256: "18adab90794c9e0458f86346fa654d29bb5348a6aacbeeb7245b70408c2f1750"
+        sha256: "8ca9bc54fd0693b26bbc9456c29dfadccdb35ca17a2ba991b8f6202cd2962b39"
