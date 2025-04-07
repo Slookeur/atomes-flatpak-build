@@ -10,5 +10,5 @@ modules:
     no-autogen: true
     sources:
       - type: archive
-        url: https://github.com/Slookeur/Atomes-GNU/archive/refs/tags/v1.1.17.tar.gz
+        url: https://github.com/Slookeur/atomes-GNU/archive/refs/tags/v1.1.17.tar.gz
         sha256: "cb04fa3e4d76c43163459f2f9808bf0fc5d501acb72c6a4316661542b995e0e2"
