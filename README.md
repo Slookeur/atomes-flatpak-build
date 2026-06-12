@@ -30,7 +30,7 @@ To prepare the input ﬁlles for these calculations is likely to be the key, and
 ## Who's behind ***atomes***
 
 
-***atomes*** is developed by [Dr. Sébastien Le Roux][slr], research engineer for the [CNRS][cnrs]
+**atomes** is developed by [Dr. Sébastien Le Roux][slr], research engineer for the [CNRS][cnrs]
 
 <p align="center">
   <a href="https://www.cnrs.fr/"><img width="100" src="https://www.cnrs.fr/themes/custom/cnrs/logo.svg" alt="CNRS logo" align="center"></a>
